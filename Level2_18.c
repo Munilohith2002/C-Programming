@@ -1,6 +1,5 @@
-Write a program to get number from user, print whether that number’s
-
-first two digits (ten’s digits and one’s digit) is prime.
+//Write a program to get number from user, print whether that number’s
+//first two digits (ten’s digits and one’s digit) is prime.
 #include <stdio.h>
 int main() {
     int number, first_two_digits, i, is_prime = 1;
