@@ -20,7 +20,7 @@ int main() {
         }
     }
  digitsum=(number%10)+(number/10) ;
-    Print results
+
     if (is_prime) {
         printf("%d is a prime number.\n", number);
     } else {
