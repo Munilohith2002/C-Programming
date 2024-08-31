@@ -1,0 +1,24 @@
+// Write a program to get two numbers from user and print the HCF of
+
+// those numbers.
+#include <stdio.h>
+
+int main() {
+    int num1, num2, temp;
+
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+
+    while (num2 != 0) {
+        temp = num1;
+        num1 = num2;
+        num2 = temp % num2;
+    }
+
+    printf("HCF of the two numbers is %d\n", num1);
+
+    return 0;
+}
