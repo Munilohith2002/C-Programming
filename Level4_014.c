@@ -15,3 +15,4 @@ int main() {
    printf("the total number of single digit odd :%d \n",count);
    return 0;
 }
+ 
