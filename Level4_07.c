@@ -12,3 +12,4 @@ y=f*100+t*10+h;
 
 printf("The reverse of the entered number is %d\n",y);
 }
+
