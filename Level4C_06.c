@@ -10,3 +10,4 @@ s=x/10;  //tens
 y=f*10+s;
 printf("The reverse of the entered number is %d\n",y);
 }
+
