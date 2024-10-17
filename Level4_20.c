@@ -21,6 +21,6 @@ int main() {
           count++;
        }
    }
-   printf("sum of all THREE digit odd numbers :%d \n",count);
+   printf("total number of single digit Prime numbers :%d \n",count);
    return 0;
 }
